@@ -1,0 +1,40 @@
+.headerline{
+   
+   
+    height: 100px;
+    background: #ffffff;
+    margin-right: 163px;
+    margin: 0px;
+    }
+    h1{
+        text-transform: uppercase;
+        text-align: center;
+        margin-right: 296px;
+        color: rgba(20,74,139,1);
+
+    }
+    .menubar li{
+        padding-right: 14px;
+        color: #171209;
+       
+    }
+    .menubar a {
+        padding-top: 2px;
+        font-weight: bolder;
+        height: 26px;
+    }
+       
+    img{
+        
+        float: left;
+        padding-top: 22px;
+       
+        padding-left: -45px;
+        /* padding-left: 27px; */
+        margin-left: 22px;
+    }
+/* .back{
+    background-image: url("asserts/images/Hands-on-slider-new.png");
+} */
+
+   

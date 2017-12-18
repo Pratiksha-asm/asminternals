@@ -1,0 +1,27 @@
+
+<div class="col-md-9">
+  <h3>Employee List</h3>
+  <table class="table table-border" >
+     <thead>
+         <tr>
+             <th>S.no</th>
+             <th>Employee Name </th>
+             <th>Employee Id</th>
+             <th>Place of Work</th>
+             <th></th>
+  
+         </tr>
+      </thead>
+      <tbody>
+         <tr *ngFor="let students of student">
+             
+          <td>{{students.id}}</td>
+          <td>{{students.name}}</td>
+          <td>{{students.Percentage}}</td>
+          <td>{{students.Work}}</td>
+          <td><button (onclick)="viewdetails()" class="btn btn-info">View</button></td>
+         </tr>
+      </tbody>
+    
+  </table>
+  </div>

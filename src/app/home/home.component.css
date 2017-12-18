@@ -1,0 +1,37 @@
+
+.dashlist{
+    list-style: none;
+    background: rgba(20,74,139,1);
+    height: auto;
+    text-align: center;
+    width: 20%;
+   
+}
+.dashlist li{
+    padding-top: 20px;
+    color: white;
+    
+    font-size: 17px;
+    list-style-type: none;
+   
+    font-weight: bolder;
+    text-decoration: none
+}
+a{
+    color: white;
+}
+.row p{
+    margin-left: 34%;
+    margin-top: 23%;
+    font-size: 41px;
+    color: #0470ff;
+
+}
+ul.dashlist li.active,
+ul.dashlist li:hover,
+ul.dashlist li.active:focus {
+    transition: all 1s;
+    transform: scale(1.1);
+    background: #0bda97 !important;
+    color: rgb(12, 129, 207) !important;
+}

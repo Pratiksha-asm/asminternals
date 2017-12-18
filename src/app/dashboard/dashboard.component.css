@@ -1,0 +1,23 @@
+.box{
+    margin-top: 92px;
+   
+    background: #f59505;
+    borde-radius: 50%;
+    
+    border-radius: 41px;
+    width: 233px;
+    padding-left: 36px;
+    margin-left: 30px;
+    height: 113px;
+  
+}
+.box h5  {
+    font-size: medium;
+    font-weight: bolder;
+    color: #2b255f;
+}
+.box span{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #4e43ab;
+}

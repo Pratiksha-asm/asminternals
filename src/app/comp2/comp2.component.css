@@ -1,0 +1,12 @@
+h3{
+    text-align: center;
+    color: orangered;
+}
+thead {
+    background: #ff450069;
+    font-weight: bolder;
+    font-size: 15px;
+}
+tbody tr:nth-child(even){
+    background: #ff450069;
+}
